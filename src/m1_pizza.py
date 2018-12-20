@@ -550,6 +550,7 @@ def run_test_fancy_polygon():
     fancy_polygon(window, circle, 6, 2, 'blue', 5)
     window.close_on_mouse_click()
 
+
 def fancy_polygon(window, circle, number_of_lines, hops_to_next_point, color,
                   thickness):
     """
