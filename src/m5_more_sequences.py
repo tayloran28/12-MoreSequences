@@ -89,7 +89,10 @@ def sum_radii(circles):
     #       Instead, use explicit loops, as you have for other problems.
     # -------------------------------------------------------------------------
 
-
+    total = 0
+    for k in range(len(circles)):
+        total = total + circles[k+1]
+    return total
 
 ###############################################################################
 # Some problems iterate (loop) through PART of the sequence,
@@ -156,6 +159,8 @@ def count_last_n_odds(integers, n):
     # TODO: 3. Implement and test this function.
     #     The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+
+    for k in range(len(integers)):
 
 
 ###############################################################################
